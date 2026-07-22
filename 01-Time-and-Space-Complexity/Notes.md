@@ -22,4 +22,22 @@ o(n): in array there are n elements and we have to traverse or access , ex : the
 O(nsquare): when there is two array with size n.
 
 
+========================================================================================
+SPACE COMPLEXITY
+1. What is Space Complexity?
+ANS: amount of memory/space taken by the algorithm
 
+2. What is Auxiliary Space?
+ANS: the memory we create
+
+3. Difference between Input Space and Auxiliary Space.
+ANS: the memory which is already given to us is input space and the memory we create is auxiliary space
+
+4. When is Space Complexity O(1)?
+ANS: the extra memory is not created
+
+5. When is it O(n)?
+ANS: when the extra memory is created.
+
+6.One example of O(n²) space?
+ANS : matrix 
