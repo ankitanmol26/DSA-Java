@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "DSA-Java_76c81037"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "DSA-Java_76c81037"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "Name",
+            "projectName": "DSA-Java_76c81037"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "DSA-Java_76c81037"
+        },
+        {
+            "type": "java",
+            "name": "Print1toN",
+            "request": "launch",
+            "mainClass": "Print1toN",
+            "projectName": "DSA-Java_76c81037"
+        },
+        {
+            "type": "java",
+            "name": "PrintNto1",
+            "request": "launch",
+            "mainClass": "PrintNto1",
+            "projectName": "DSA-Java_76c81037"
+        },
+        {
+            "type": "java",
+            "name": "Run Current Java File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
