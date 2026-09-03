@@ -1,0 +1,43 @@
+
+//leetcode 283. Move Zeroes
+class Solution {
+    public void moveZeroes(int[] nums) {
+
+        // Sabse pehle j ko -1 rakhenge
+        // j baad mein first zero ke index ko point karega
+        int j = -1;
+
+        // Array ko iterate karke first zero find kar rahe hain
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] == 0) {
+                // First zero mil gaya, j uske index ko point karega
+                j = i;
+                break;
+            }
+        }
+
+        // Agar array mein ek bhi zero nahi mila
+        // toh kuch karne ki zarurat nahi hai
+        if (j == -1) {
+            return;
+        }
+
+        // Ab j ke next index se array ko iterate karenge
+        for (int i = j + 1; i < nums.length; i++) {
+
+            // Agar current element non-zero hai
+            if (nums[i] != 0) {
+
+                // nums[i] aur nums[j] ko swap karenge
+                // taaki non-zero element aage aa jaye
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+
+                // Ab j ko next position par move kar denge
+                j++;
+            }
+        }
+    }
+}
