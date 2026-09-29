@@ -1,8 +1,31 @@
-in array we can traverse 
+1️⃣ Traversal / Simulation
 
-bascially we traverse from 0th index to the length of the array 
+This is the pattern you have already been using.
 
-array starts from 0 and end size-1.
+Recognize it when:
 
-array is very useful in data structure.
+The problem basically says:
+
+"Go through the array and calculate/check something."
+
+Examples:
+
+Largest element
+Second largest
+Check sorted
+Linear search
+Count something
+Move zeroes
+Reverse array
+
+Typical structure:
+
+for(int i = 0; i < n; i++) {
+    // process arr[i]
+}
+Mental question:
+
+"Can I solve this by looking at each element once?"
+
+If yes → start with traversal.
 
